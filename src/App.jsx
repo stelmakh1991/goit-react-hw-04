@@ -53,6 +53,7 @@ const App = () => {
       });
       return;}
     setPhotos([]);
+    setCurrentPage(1);
     setValue(value);
   };
 
