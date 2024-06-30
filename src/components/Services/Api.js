@@ -6,7 +6,7 @@ const URL =
 export const requestPhotos = async ({ queryValue = '', page = 1 }) => {
   const { data } = await axios.get(URL, {
     params: {
-    client_id: 'XlhamTcBfw1C3XzSRruT_ys2JUUQtmyYn6f_Sn2Gezc',
+    client_id: 'e77Hr-FoiXBvzM7RsBeoRwnsRtcgFhtTGod32LzI62k',
     query: queryValue,
     page,
     orientation: 'landscape'
